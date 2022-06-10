@@ -1,0 +1,843 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Jura', sans-serif;
+}
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    width: 100%;
+    background-color: #006aa7;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.center-footer{
+    display: flex;
+    align-items: center;
+}
+.bg-img{
+    margin:10px;
+}
+main{
+    width:100%;
+    background-color:#e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ukrainians-people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+.six-people{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-top: 10px;
+    align-items: center;
+}
+.one-person{
+    width: 525px;
+    height:150px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding-left: 15px;
+}
+.quote{
+    margin-left: 15px;
+}
+.free-people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.photos-free-ukrainians{
+    text-align: center;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 23px;
+}
+.title-free-people{
+    font-weight: 500;
+    font-size: 19px;
+}
+.title-ukrainians{
+    font-weight: 500;
+    font-size: 19px;
+}
+.top-center-text{
+    font-size: 16px;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 40px;
+}
+.title-future-people{
+    font-size: 24px;
+    font-weight: 600px;
+}
+.future-people{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mini-about-future{
+    width: 340px;
+    height: 230px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.white-text-span{
+    color: white;
+}
+.big-about-future{
+    width: 520px;
+    height: 200px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.about-future{
+    width: 1070px;
+    gap:25px;
+    margin-top: 30px;
+}
+.mini-block-container{
+    display: flex;
+    gap: 25px;
+}
+.big-block-container{
+    gap: 27.5px;
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.white-background{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.title-digitalization{
+    text-align: center;
+    font-size: 19px;
+    font-weight: 700;
+}
+.text-about-digitalization{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+}
+.big-yellows-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin-top: 25px;
+}
+.block-digitalization{
+    width: 350px;
+    height: 120px;
+    background: #F9C00D;
+    border-radius: 5px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.text-yellows-block{
+    margin-left: 15px;
+}
+.block-zelenskiy{
+    background: #006AA7;
+    border-radius: 5px;
+    width: 800px; 
+    height: 250px;
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 45px;
+    margin-bottom: 56px;
+    margin-top: 25px;
+}
+.circle-img{
+    border-radius: 100%;
+}
+.quote-zelenskiy{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 30px;
+}
+.my-composition{
+    background: linear-gradient(blue, yellow);
+    border-radius: 5px;
+    width: 800px; 
+    height: 250px;
+    display: flex;
+    align-items: center;
+   padding: 30px;
+    margin-top: 40px;
+}
+.my-text{
+    color: black;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: center;
+}
+.title-who{
+    text-align: center;
+    font-weight: 600;
+    font-size:24px ;
+}
+.top-quote{
+    text-align: center;
+    font-weight: 600;
+    font-size:16px ;
+}
+.block-borders{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 18px;
+    margin-top: 15px;
+}
+.white-border{
+    width: 260px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 1px;
+}
+.black-text{
+    font-weight: 600;
+    font-size: 16px;
+}
+.yellow-plane{
+    width: 100%;
+    height: 450px;
+    background-color: #F9C00D;
+    padding: 28px 40px 33px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-yellow-plane{
+    font-size: 19px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.mini-top{
+    margin-top: 12px;
+    margin-left:35px ;
+}
+.about-plane{
+    display: flex;
+}
+.button-more{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background: #F9C00D;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.text-plane{
+    font-size: 20px;
+    font-weight: 600;
+}
+.button-more:hover{
+    background: #BD930A;
+    transition:1s;
+}
+.who-block{
+    margin-top: 100px;
+}
+.ukrainian-kozak{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 51px;
+}
+.about-kozak{
+    margin-top: 22px;
+    display: flex;
+}
+.blue-kozak{
+    width: 530px;
+    height: 180px;
+    background: #006AA7;
+    border-radius: 5px;
+    padding: 28px;
+    display: flex;
+}
+.mini-text-kozak{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 13px;
+}
+.mini-title-kozak{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+.white-kozak{
+    width: 270px;
+    height: 180px;
+    background: #F5F5F5;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    margin-left: 12px;
+    padding-top: 8px;
+    padding-left: 10px;
+}
+.two-classes{
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.text-values{
+    font-weight: 400;
+    font-size: 16px;
+}
+.text-courage{
+    font-weight: 400;
+    font-size: 16px;
+}
+.past-ukrainians{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 53px;
+    padding-bottom: 45px;
+}
+.mini-title-past{
+    font-size:16px;
+    font-weight:600 ;
+}
+.title-past{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+.square{
+    width: 260px;
+    height: 250px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 22px 11px 18px 14px;
+}
+.square:hover{
+    background-color: #006aa7;
+    color: white;
+    transition: 1s;
+}
+.full-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 17px;
+}
+.formation{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap:18px;
+}
+.only-blue{
+    color: white;
+}
+.people-ground{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+.text-people-ground{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.arrow{
+    margin-left: 10px;
+}
+.full-text{
+    font-weight: 400;
+    font-size: 16px;
+}
+.header{
+    width:1240px;
+    display: flex;
+    justify-content: center;
+}
+header{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 85px;
+}
+.center-header{
+    display: grid;
+    grid-template-columns:90px 256px 536px;
+    grid-template-rows:100px 178px 50px 50px 100px 192px;
+    column-gap: 120px;
+}
+.nav-header{
+    display: flex;
+    gap: 20px;
+    width: 256px;
+    margin-top: 78px;
+    height: 12px;
+    margin-left: 20px;
+}
+.nav-blue-text{
+    font-weight: 700;
+    font-size: 12px;
+    color: #006AA7;
+}
+.header-logo{
+    margin-top: 38px;
+}
+.nav-blue-text:hover{
+    text-decoration: underline;
+}
+.main-photo{
+    grid-column: 3/4;
+    grid-auto-rows: 1/-1;
+}
+.top-title-ukraine{
+    font-size: 100px;
+    font-weight: 700;
+    margin-top: 100px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.untitle-ukraine{
+    font-size: 50px;
+    font-weight: 700;
+    grid-row:3/4;
+    grid-column: 1/3;
+    margin-top: 20px;
+}
+.button-header{
+    color: white;
+    height: 50px;
+    background: #006AA7;
+    width: 250px;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin-top: 80px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.button-header:hover{
+    background: #024D79;
+    transition: 1s;
+}
+.poem{
+    grid-column: 1/3;
+    grid-row:4/5 ;
+    margin-top: 40px;
+}
+.mini-about-future:hover{
+    background: #006AA7;
+    color: white;
+    transition: 1s;
+}
+.big-about-future:hover{
+    background: #006AA7;
+    color: white;
+    transition: 1s;
+}
+.strange-row{
+    display: flex;
+}
+@media (min-width:768px) and (max-width:1239px) {
+    .container{
+        min-width:1100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .one-person{
+        flex-direction: row-reverse;
+        padding-right: 15px;
+    }
+    .six-people{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    .bagryanyi{
+        margin-left: 25px;
+    }
+    .photos-free-ukrainians{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 23px;
+    }
+    footer{
+        width:100%;
+    }
+    .big-yellows-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .block-zelenskiy{
+        flex-direction: row-reverse;
+        width:750px
+    }
+    .my-composition{
+        width: 750px;
+    }
+    .quote-zelenskiy{
+        margin-left: 25px;
+    }
+    .mini-block-container{
+        flex-direction: column;
+    }
+    .big-block-container{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .about-future{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block-borders{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .formation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .about-plane{
+        flex-direction: column;
+    }
+    .yellow-plane{
+        height: 875px;
+    }
+    .text-plane{
+        text-align: center;
+    }
+    .maybe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .strange-row{
+        display: flex;
+        margin-top: 10px;
+        margin-left: -22.5px;
+    }
+    .about-kozak{
+        flex-direction: column;
+    }
+    .top{
+        width:660px;
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 85px;
+        padding-left: 120px;
+    }
+    .center-header{
+        display: grid;
+        grid-template-columns:90px 256px 280px;
+        grid-template-rows:100px 178px 50px 50px 100px 192px;
+        column-gap: 120px;
+    }
+    .nav-header{
+        display: flex;
+        width: 256px;
+        height: 12px;
+        margin-left: 20px;
+        z-index: 1;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .nav-blue-text{
+        font-weight: 700;
+        font-size: 12px;
+        color: #006AA7;
+    }
+    .header-logo{
+        margin-top: 38px;
+
+    }
+    .nav-blue-text:hover{
+        text-decoration: underline;
+    }
+    .main-photo{
+        grid-column: 2/4;
+        grid-row: 1/7;
+    }
+    .top-title-ukraine{
+        font-size: 100px;
+        font-weight: 700;
+        margin-top: 100px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .untitle-ukraine{
+        font-size: 50px;
+        font-weight: 700;
+        grid-row:3/4;
+        grid-column: 1/3;
+        margin-top: 20px;
+    }
+    .button-header{
+        color: white;
+        height: 50px;
+        background: #006AA7;
+        width: 250px;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-top: 80px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .button-header:hover{
+        background: #024D79;
+        transition: 1s;
+    }
+    .poem{
+        grid-column: 1/3;
+        grid-row:4/5 ;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:767px){
+    .container{
+        min-width: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formation{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+    }
+    .left{
+        flex-direction: row-reverse;
+        display: flex;
+    }
+    .six-people{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    .one-person{
+        padding-right: 15px;
+    }
+    .bagryanyi{
+        margin-left: 25px;
+    }
+    .photos-free-ukrainians{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        gap: 23px;
+    }
+    .mini-block-container{
+        flex-direction: column;
+    }
+    .big-block-container{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .about-future{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .big-yellows-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    }
+    .digitalization{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: row-reverse;
+        display: flex;
+        padding-right: 10px;
+    }
+    .block-zelenskiy{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 450px;
+        padding-top: 30px;
+        width: 500px;
+    }
+    .circle-img{
+        margin-top: 25px;
+    }
+    .my-composition{
+        width: 500px;
+        height: 500px;
+    }
+    .block-borders{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .strange-row{
+        display: flex;
+        margin-top: 10px;
+        margin-left: -12.5px;
+    }
+    .about-kozak{
+        flex-direction: column;
+    }
+    .white-kozak{
+        width: 250px;
+    }
+    .blue-kozak{
+        width: 512px;
+    }
+    .about-plane{
+        flex-direction: column;
+    }
+    .yellow-plane{
+        height: 900px;
+        min-width: 550px;
+    }
+    .text-plane{
+        text-align: center;
+    }
+    .maybe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mini-top{
+        margin-left: 0px;
+    }
+    header{
+        width:550px;
+        padding-bottom: 85px;
+    }
+    .center-header{
+        display: grid;
+        grid-template-columns:90px 200px 0px;
+        grid-template-rows:100px 178px 50px 50px 100px 192px;
+    }
+    .nav-header{
+        display: flex;
+        width: 256px;
+        height: 12px;
+        margin-left: 20px;
+        z-index: 1;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .nav-blue-text{
+        font-weight: 700;
+        font-size: 12px;
+        color: #006AA7;
+    }
+    .header-logo{
+        margin-top: 38px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        z-index: 1;
+    }
+    .nav-blue-text:hover{
+        text-decoration: underline;
+    }
+    .main-photo{
+        grid-column: 1/4;
+        grid-row: 1/7;
+    }
+    .top-title-ukraine{
+        font-size: 100px;
+        font-weight: 700;
+        margin-top: 100px;
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .untitle-ukraine{
+        font-size: 50px;
+        font-weight: 700;
+        grid-row:3/4;
+        grid-column: 1/3;
+        margin-top: 20px;
+    }
+    .button-header{
+        color: white;
+        height: 50px;
+        background: #006AA7;
+        width: 250px;
+        grid-column: 1/2;
+        grid-row: 5/6;
+        margin-top: 80px;
+        border: none;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .button-header:hover{
+        background: #024D79;
+        transition: 1s;
+    }
+    .poem{
+        grid-column: 1/3;
+        grid-row:4/5 ;
+        margin-top: 40px;
+        height: 80px;
+        width: 180px;
+        font-weight: bold;
+        background-color: white;
+        opacity: 50%;
+    }
+    footer{
+        width: 100%;
+    }
+    .about-future{
+        width: 550px;
+    }
+}
